@@ -1,0 +1,8 @@
+env:
+  # Next.js honors PORT for `next dev` / `next start`; defaults to 3000.
+  - name: PORT
+    default: "3000"
+
+port:
+  default: 3000
+  linked_env_var: PORT
