@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(npx --yes create-next-app@latest . --yes)",
+      "Bash(mv README.md ../README.portal.bak)",
+      "Bash(mv -f ../README.portal.bak README.md)"
+    ]
+  }
+}
